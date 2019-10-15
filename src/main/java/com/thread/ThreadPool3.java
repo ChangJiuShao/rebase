@@ -23,6 +23,9 @@ public class ThreadPool3 {
                     System.out.println("delay 3 seconds");
                     System.out.println("delay 3 seconds");
                     System.out.println("delay 3 seconds");
+                    System.out.println("delay 3 seconds");
+                    System.out.println("delay 3 seconds");
+                    System.out.println("delay 3 seconds");
                 }
             }, 3, TimeUnit.SECONDS);
         }
