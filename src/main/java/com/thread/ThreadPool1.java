@@ -14,6 +14,8 @@ public class ThreadPool1 {
             final int index = i;
             System.out.println(index);
             System.out.println(index);
+            
+               System.out.println(index);
             cachedThreadPool.execute(new Runnable() {
                 public void run() {
                     try {
