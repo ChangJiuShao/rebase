@@ -9,6 +9,7 @@ public class ThreadPool2 {
         ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);
         for (int i = 0; i < 10; i++) {
             final int index = i;
+            System.out.println(index);
             fixedThreadPool.execute(new Runnable() {
                 public void run() {
                     try {
