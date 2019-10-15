@@ -13,6 +13,7 @@ public class ThreadPool1 {
         for (int i = 0; i < 10; i++) {
             final int index = i;
             System.out.println(index);
+            System.out.println(index);
             cachedThreadPool.execute(new Runnable() {
                 public void run() {
                     try {
