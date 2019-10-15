@@ -18,6 +18,7 @@ public class ThreadPool1 {
                     try {
                         Thread.sleep(1000);
                         System.out.println(index);
+                        System.out.println(index);
                     } catch (InterruptedException e) {
                         e.printStackTrace();
                     }
